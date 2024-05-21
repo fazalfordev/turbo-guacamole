@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family:fantasy;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sections {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    padding: 5px;
+}
+.section2 {
+    background: #f0f0f0;
+    color: black;
+}
+.section3 {
+    padding: 5px;
+    background: #f0f0f0;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(207, 33, 33);
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.list-product {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 300px;
+    margin: 5px;
+}
+
+.list-product:hover {
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+
+.list-product img {
+    width: 100%;
+    height: 175px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.list-product h4,
+.list-product h5 {
+    color: crimson;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.tombol {
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: block;
+    float: left;
+    width: 42%;
+    margin: 4px;
+    text-align: center;
+    color: white;
+}
+
+.tombol:hover {
+    background-color: black;
+    transition-duration: 700ms;
+}
+
+.tombol-detail {
+    background-color: crimson;
+}
+
+.tombol-beli {
+    background-color: green;
+}
+
+.checkout {
+    border: 1px solid gainsboro;
+    float: left;
+    width: 400px;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.list-product2:hover {
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+
+.checkout img {
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tombol2 {
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 4px;
+    text-align: center;
+    color: white;
+}
+
+.tombol2:hover {
+    background-color: black;
+    transition-duration: 700ms;
+}
+
+.tombol-beli2 {
+    background-color: crimson;
+}
+
+.checkout input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-beli {
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 4px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+.button-beli:hover {
+    background-color: black;
+    transition-duration: 700ms;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.btn {
+    border-radius: 7px;
+    padding: 5px;
+    width: 60px;
+    text-align: center;
+    color: white;
+}
+
+.btn:hover {
+    background-color: black;
+    transition-duration: 700ms;
+}
+
+.btn-hapus {
+    background-color: crimson;
+}
+
+.btn-bayar {
+    background-color: green;
+}
